@@ -1,0 +1,72 @@
+.logos
+{
+    height:100px;
+    width:100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+.logos img
+{
+    height: 100px;
+    width: 170px;
+    
+}
+.describe
+{
+  height: 20px;
+  width: 150px;
+}
+.describe h3
+{
+    color: black;
+    font-size: 10px;
+    font-weight: 50;
+
+}
+.describe h4>img
+{
+       height: 30px;
+       width: 40px;
+       margin-left: 50px;
+       
+}
+.describe h4{
+    font-size: 20px;
+    font-weight: 500;
+    display:flex;
+       justify-content: center;
+       align-items: center;
+       margin-right: 70px;
+    
+}
+.describe span{
+    font-size: 20px;
+    font-weight: 500;
+}
+.socialicon
+{
+ height:50px;
+ width:100px;
+ display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+gap: 10px;
+}
+.socialicon .socialicon1 img,.socialicon2 img, .socialicon3 img
+{
+    height: 30px;
+    width:30px;
+    position: relative;
+}
+.socialicon .socialicon1, .socialicon2, .socialicon3    
+{
+    border-radius: 100%;
+    border: none;
+}
+.footer-links
+{
+    
+}

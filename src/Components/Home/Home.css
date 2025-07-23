@@ -1,0 +1,133 @@
+.home {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    background-color: brown;
+    color: #fefefe;
+    flex-wrap: wrap;
+    /* padding: 20px 40px;
+    padding-bottom: 50px; */
+    /* margin-bottom: 20px; */
+}
+
+.home-image img {
+    width: 500px;
+    border-radius: 30px;
+    height: 70vh;
+    left: 100px;
+    top: 50px;
+    bottom: 20px;
+}
+
+.home-content {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    color: #fefefe;
+    align-items: baseline;
+    justify-content: center;
+    padding-top: 180px;
+    text-transform: uppercase;
+}
+
+.home-content span {
+    font-family: italic;
+    color: #000;
+    font-size: 20px;
+
+}
+
+.home-content h1 {
+    font-size: 100px;
+    color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.home-content h1>span {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    line-height: 1.1;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90px;
+}
+
+.home-content .shop {
+    width: 30%;
+    padding: 20px 20px;
+    border-radius: 40px;
+    border: none;
+    background-color: aquamarine;
+    color: brown;
+    position: relative;
+    top: -180px;
+    right: -200px;
+
+}
+/* Hero Section
+
+.Hero-section {
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:brown
+}
+
+/* dog image place */
+
+/* .Hero-section .left {
+    width: 50%;
+}
+
+.Hero-section .left img {
+    width: 86.5%;
+    transform: scaleX(-1);
+} */
+
+/* Hero-page Content Placed */
+
+/* .Hero-section .right {
+    padding-top: 200px;
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.Hero-section .right>span {
+    font-size: 25px;
+}
+
+.Hero-section .right button {
+    padding: 20px 20px;
+    border-radius: 50px;
+    border: none;
+    width: 30%;
+    font-size: 20px;
+    background-color: #6839CC;
+    color: #fff;
+    position: relative;
+    left: 200px;
+    top: -190px;
+    font-weight: 700;
+    bottom: 70px;
+}
+
+.Hero-section .right h1 {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 100px;
+    color: aqua;
+    line-height: 1.1;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  */

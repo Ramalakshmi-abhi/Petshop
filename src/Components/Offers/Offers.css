@@ -1,0 +1,253 @@
+.offer-section{
+    height: 60vh;
+}
+
+.collection-div h3 {
+    font-size: 20px;
+    padding-left: 40px;
+    text-decoration: underline;
+}
+
+.collection-list-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.collection-list {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.collect-items {
+    width: 280px;
+    height: 200px;
+    background-color: aqua;
+}
+
+.collect-items1 {
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(45deg, #1c0851, #BAABE8);
+    border-radius: 25px;
+}
+
+.collect-items1>.right-item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.collect-items1>.right-item>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.collect-items1>.right-item>h1 {
+    color: #fff;
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.collect-items1>.right-item>h1>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.collect-items1>.right-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: greenyellow;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.collect-items1>.left-item img
+{
+width:150px;
+height: 100px;
+position: relative;
+left: 130px;
+bottom: 150px;
+}
+.collect-items2 {
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(45deg, #2bc070, #BAABE8);
+    border-radius: 25px;
+}
+
+.collect-items2>.right-item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.collect-items2>.right-item>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.collect-items2>.right-item>h1 {
+    color:black;
+    font-weight: 700;
+    font-size: 30px;
+}
+.collect-items2>.right-item>h3 {
+    color:black;
+    font-weight: 100;
+    font-size: 15px;
+    text-align: center;
+    text-decoration: underline;
+
+    
+}
+
+.collect-items2>.right-item>h4 {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+
+.collect-items2>.left-item img
+{
+width:120px;
+height: 100px;
+position: relative;
+left: 150px;
+bottom: 150px;
+right: 50px;
+}
+.collect-items3 {
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(45deg, #f5f107, #BAABE8);
+    border-radius: 25px;
+}
+
+.collect-items3>.right-item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.collect-items3>.right-item>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.collect-items3>.right-item>h1 {
+    color:black;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.collect-items3>.right-item>h1>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 15px;
+    
+}
+
+.collect-items3>.right-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: greenyellow;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 50px;
+}
+.collect-items3>.left-item img
+{
+width:120px;
+height: 100px;
+position: relative;
+left: 150px;
+bottom: 150px;
+right: 50px;
+}
+.collect-items4 {
+    width: 280px;
+    height: 200px;
+    background: linear-gradient(45deg, #d61515, #BAABE8);
+    border-radius: 25px;
+}
+
+.collect-items4>.right-item {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.collect-items4>.right-item>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.collect-items4>.right-item>h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.collect-items4>.right-item>h1>span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.collect-items4>.right-item a {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: greenyellow;
+    padding: 10px 10px;
+    font-size: 14px;
+    border-radius: 30px;
+}
+.collect-items4>.left-item img
+{
+width:150px;
+height: 200px;
+position: relative;
+left: 180px;
+bottom: 230px;
+right: 50px;
+}

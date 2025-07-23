@@ -1,0 +1,257 @@
+.selling
+{
+    height:60vh;
+    
+}
+.selling-head
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.selling-head h3
+{
+    font-size: 20px;
+    padding-right: 940px;
+    text-decoration: underline;
+    
+}
+.selling-head h4 
+{
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+.selling-cards
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+}
+.sellingcard-lists
+{
+
+    height: 300vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 300px;
+}
+
+.sellingcard-list1{
+width: 200px;
+    height: 100px;
+}
+
+.sellingcard-top
+{
+    width:200px;
+    height:200px;
+    margin-bottom: -80px;
+ }
+ .sellingcard-top img{
+width:150px;
+height:50px;
+border:1px dotted black;
+ }
+ .sellingcard-bottom h1{
+    color:blue;
+    font-weight: 200;
+    font-size: 14px;
+ }
+ .sellingcard-bottom h2{
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .sellingcard-bottom img
+ {
+    width: 40px;
+    height:20px
+ }
+ .sellingcard-bottom span
+ {
+    display: flex;
+    align-items: center;
+    }
+.sellingcard-bottom  span>h6
+{
+color:black;
+    font-weight: 200;
+    font-size: 10px;
+
+}
+.sellingcard-list2{
+width: 200px;
+    height: 100px;
+}
+
+.sellingcard-top
+{
+    width:200px;
+    height:200px;
+ }
+ .sellingcard-top img{
+width:150px;
+height:100px;
+border:1px dotted black;
+ }
+ .sellingcard-bottom h1{
+    color:blue;
+    font-weight: 900;
+    font-size: 14px;
+ }
+ .sellingcard-bottom h2{
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .sellingcard-bottom img
+ {
+    width: 40px;
+    height:20px
+ }
+ .sellingcard-bottom span
+ {
+    display: flex;
+    align-items: center;
+    }
+.sellingcard-bottom  span>h6
+{
+color:black;
+    font-weight: 200;
+    font-size: 10px;
+
+}
+.sellingcard-list3{
+width: 200px;
+    height: 100px;
+}
+
+.sellingcard-top
+{
+    width:200px;
+    height:200px;
+ }
+ .sellingcard-top img{
+width:150px;
+height:100px;
+border:1px dotted black;
+ }
+ .sellingcard-bottom h1{
+    color:blue;
+    font-weight: 900;
+    font-size: 14px;
+ }
+ .sellingcard-bottom h2{
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .sellingcard-bottom img
+ {
+    width: 40px;
+    height:20px
+ }
+ .sellingcard-bottom span
+ {
+    display: flex;
+    align-items: center;
+    }
+.sellingcard-bottom  span>h6
+{
+color:black;
+    font-weight: 200;
+    font-size: 10px;
+
+}
+.sellingcard-list4{
+width: 200px;
+    height: 100px;
+}
+
+.sellingcard-top
+{
+    width:200px;
+    height:200px;
+ }
+ .sellingcard-top img{
+width:150px;
+height:100px;
+border:1px dotted black;
+ }
+ .sellingcard-bottom h1{
+    color:blue;
+    font-weight: 900;
+    font-size: 14px;
+ }
+ .sellingcard-bottom h2{
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .sellingcard-bottom img
+ {
+    width: 40px;
+    height:20px
+ }
+ .sellingcard-bottom span
+ {
+    display: flex;
+    align-items: center;
+    }
+.sellingcard-bottom  span>h6
+{
+color:black;
+    font-weight: 200;
+    font-size: 10px;
+
+}
+.sellingcard-list5{
+width: 200px;
+    height: 100px;
+}
+
+.sellingcard-top
+{
+    width:200px;
+    height:200px;
+ }
+ .sellingcard-top img{
+width:150px;
+height:100px;
+border:1px dotted black;
+ }
+ .sellingcard-bottom h1{
+    color:blue;
+    font-weight: 900;
+    font-size: 14px;
+ }
+ .sellingcard-bottom h2{
+    color:black;
+    font-weight: 500;
+    font-size: 14px;
+ }
+ .sellingcard-bottom img
+ {
+    width: 40px;
+    height:20px
+ }
+ .sellingcard-bottom span
+ {
+    display: flex;
+    align-items: center;
+    }
+.sellingcard-bottom  span>h6
+{
+color:black;
+    font-weight: 200;
+    font-size: 10px;
+
+}

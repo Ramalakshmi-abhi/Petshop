@@ -1,0 +1,64 @@
+.promise-section {
+    background-color: #fff;
+     width: 100%;
+    height: 40vh;
+    display: flex;    
+    color: #fefefe;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.promise-center {
+    width: 90%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dotted black;
+}
+
+.promise-center .list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+padding: 10px;
+width: 200px;
+
+}
+
+.promise-center.list-1 img,
+.list-2 img,
+.list-3 img,
+.list-4 img,
+.list-5 img {
+    height: 60px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px; 
+
+ }
+
+.promise-center span {
+    color: black;
+    font-size: smaller;
+    display: flex;
+    font-size: 12px;
+    width: 100px;
+}
+
+.promise-center hr {
+    height: 40px;
+    border: 1px dotted black;
+}
+
+.promise-center .list-1 img {
+    width: 70px
+}

@@ -7,7 +7,7 @@ import Trending from './Components/Trending/Trending';
 import Sellingfordogs from './Components/Sellingfordogs/Sellingfordogs';
 import Sellingforfish from './Components/Sellingforfish/Sellingforfish';
 import Recentlyview from './Components/Recentlyview/Recentlyview';
-import Footer from './Components/Footer/Footer'
+import Footer from './Components/Footer/Footer';
 
 
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <Sellingforfish/>
       <Recentlyview/>
       <Footer/>
+      
     </div>
     </>
   );

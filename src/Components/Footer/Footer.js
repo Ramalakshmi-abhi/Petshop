@@ -10,7 +10,7 @@ export default function Footer() {
   return (
     <><div>
       <footer>
-       <hr></hr>
+       <hr/>
         
           <div className='logos'>
             <img src={logoshop} alt='logoshop'/>
@@ -33,17 +33,58 @@ export default function Footer() {
               </div>
               </div>
           </div>    
-          <div classname='footer-links'>
+          <div className='user-links'>
             <h4>USEFUL LINKS</h4>
-        <a href="#">New Products</a>
-        <a href="#">Best Sellers</a>
-        <a href="#">Bundle & Save</a>
-        <a href="#">Online Gift Card</a>
-        <a href="#">Discount</a>
+        <a href="#">New Products</a><br></br>
+        <a href="#">Best Sellers</a><br></br>
+        <a href="#">Bundle & Save</a><br></br>
+        <a href="#">Online Gift Card</a><br></br>
+        <a href="#">Discount</a><br></br>
         <a href="#">Pet Store Locator</a>
-        </div>   
+        </div> 
+        <div className='my-account'>
+            <h4>MY ACCOUNTS</h4>
+        <a href="#">My Profile</a><br></br>
+        <a href="#">MY Order History</a><br></br>
+        <a href="#">My Wish List</a><br></br>
+        <a href="#">order Tracking</a><br></br>
+        <a href="#">Shipping Info</a><br></br>
+        <a href="#">Shopping Cart</a>
+        </div> 
+        <div className='company'>
+            <h4>COMPANY</h4>
+        <a href="#">About Us</a><br></br>
+        <a href="#">Careers</a><br></br>
+        <a href="#">Blog</a><br></br>
+        <a href="#">Contact Us</a><br></br>
+        <a href="#">Gift cards</a>
+        </div> 
+        <div className='newsletter'>
+          <h4> NEWSLETTER</h4>
+          <p>Subscribe & Get 10% Discount.Get E-Mail
+            Updates About ur Latest Shop And Special Offers.
+          </p>
+     <form action="#" method="post">
+          <input type="email" name="email" placeholder="Your email"/>
+          <button type="submit">
+            <img src={emailenvelope} alt="emailenvelope"/>
+          </button>
+        </form>
+          </div>  
+    
+        
+         <div class="footer-bottom">
+    <div class="copyright">
+      © 2025 Cuifity Pets. All Rights Reserved
+    </div>
+    <div class="legal-links">
+      <a href="#">Privacy &amp; Cookie Policy</a>
+      <span>|</span>
+      <a href="#">Terms Of Service</a>
+    </div>
+  </div>
 
       </footer>
     </div></>
   );
-}
+} 

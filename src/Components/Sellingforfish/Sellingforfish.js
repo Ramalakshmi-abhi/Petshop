@@ -1,79 +1,38 @@
 import React from 'react';
 import './Sellingforfish.css';
-import fish from '../../Asset/fish.jpeg';
-import fourstarreview from '../../Asset/fourstarreview.png'
+import data from './fishdata';
+import Starrating from '../Trending/Starrating';
 export default function Sellingforfish() {
   return (
     <div>
       <section className='sellingfish'>
         <div className='sellingfish-head'>
-          <h3>Best Selling For Fish:</h3>
-        </div>
-        <div className='sellingfish-cards'>
-          <div className='sellingfishcard-lists'>
-            <div className='sellingfishcard-list1'>
-              <div className='sellingfishcard-top'>
-                <img src={fish} alt="fish" />
-              </div>
-              <div className='sellingfishcard-bottom'>
-                <h1>$368.84</h1>
-                <h2>Gorgeous Bronze knife</h2>
 
-                <span>  <img src={fourstarreview} alt="fourstarreview" />
-                  <h6>(4Reviews)</h6></span>
-              </div>
-        </div>    
-        <div className='sellingfishcard-list2'>
-              <div className='sellingfishcard-top'>
-                <img src={fish} alt="fish" />
-              </div>
-              <div className='sellingfishcard-bottom'>
-                <h1>$368.84</h1>
-                <h2>Gorgeous Bronze knife</h2>
-
-                <span>  <img src={fourstarreview} alt="fourstarreview" />
-                  <h6>(4Reviews)</h6></span>
-              </div>
-        </div> 
-        <div className='sellingfishcard-list3'>
-              <div className='sellingfishcard-top'>
-                <img src={fish} alt="fish" />
-              </div>
-              <div className='sellingfishcard-bottom'>
-                <h1>$368.84</h1>
-                <h2>Gorgeous Bronze knife</h2>
-
-                <span>  <img src={fourstarreview} alt="fourstarreview" />
-                  <h6>(4Reviews)</h6></span>
-              </div>
-        </div> 
-        <div className='sellingfishcard-list4'>
-              <div className='sellingfishcard-top'>
-                <img src={fish} alt="fish" />
-              </div>
-              <div className='sellingfishcard-bottom'>
-                <h1>$368.84</h1>
-                <h2>Gorgeous Bronze knife</h2>
-
-                <span>  <img src={fourstarreview} alt="fourstarreview" />
-                  <h6>(4Reviews)</h6></span>
-              </div>
-        </div> 
-        <div className='sellingfishcard-list5'>
-              <div className='sellingfishcard-top'>
-                <img src={fish} alt="fish" />
-              </div>
-              <div className='sellingfishcard-bottom'>
-                <h1>$368.84</h1>
-                <h2>Gorgeous Bronze knife</h2>
-
-                <span>  <img src={fourstarreview} alt="fourstarreview" />
-                  <h6>(4Reviews)</h6></span>
-              </div>
-        </div> 
+          <h3>Best Selling for fish:</h3>
 
         </div>
-      </div>
+        <div className='fish-items'>
+          {data.map(({ id, name, image, category, price, rating, reviewCount }) => (
+            <div className='fishlistitems' key={id}>
+              <div className='fishitems'>
+                <img src={image} alt={name} />
+              </div>
+              <span>{name}</span>
+              <div className="review">
+                <Starrating rating={rating} />
+                {/* <span className='review-count'>
+    ({formatCount(reviewCount || 0)} reviews)
+   </span> */}
+              </div>
+              {/* <button className='AddToCart'
+   onClick={() => addToCart({ id,name,image,price})}
+   >
+Add to Cart
+   </button> */}
+            </div>
+          )
+          )}
+        </div>
       </section>
     </div>
   );
